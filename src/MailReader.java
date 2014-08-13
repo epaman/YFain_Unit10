@@ -22,11 +22,9 @@ public class MailReader {
 			// Get the mail password
 			String password = null;
 			if (args.length != 1) {
-				System.out
-						.println("You may enter gmail password when run program: java MailReader password");
+				System.out.println("You may enter gmail password when run program: java MailReader password");
 				System.out.print("Enter password to read gmail: ");
-				BufferedReader keyboard = new BufferedReader(
-						new InputStreamReader(System.in));
+				BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 				password = keyboard.readLine();
 			} else {
 				password = args[0];

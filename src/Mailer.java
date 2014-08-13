@@ -10,7 +10,7 @@ public class Mailer {
 	// private String emailAddressee;
 	// private String emailAddress;
 
-	private static String emailSenderAddress = "epaman1@rambler.ru";
+	private static String emailSenderAddress = "epaman09@gmail.com";
 	private static String emailSubject = "Happy Birthday!!!";
 	private String emailText = "Happy birthday dear %s!!!";
 
@@ -70,8 +70,7 @@ public class Mailer {
 	}
 
 	private static String getCurrentDateMMMd() {
-		return new SimpleDateFormat("MMM-d", Locale.US)
-				.format(new GregorianCalendar().getTime());
+		return new SimpleDateFormat("MMM-d", Locale.US).format(new GregorianCalendar().getTime());
 	}
 
 	public static void main(String[] args) {
